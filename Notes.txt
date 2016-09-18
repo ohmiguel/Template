@@ -1,0 +1,111 @@
+<titre>Portfolio | Miguel Katshiete</titre>
+
+<div id="page">
+
+    <!-- DIV : Aucun sens sémantique - zone géographique -->
+    
+        <header><!-- Entête de la zone considérée --></header>
+        <nav><!-- Nav. principale de la page -> site --></nav>        
+        <aside><!-- Les à-cotés de la page --></aside>
+        <article><!-- Contenu textuel de la page --></article>
+        <footer><!-- Pied-de-page de la page -> site --></footer>
+
+===
+
+
+<div id="main_story" class="clearthis">
+<div id="main_photo" align="right">
+	<a href=""></a>
+
+
+
+<ul id="nav">
+	<li><a href="/home/">HOMEPAGE</a></li>
+	<li><a href="/about/">OUR CLIENTS</a></li>
+	<li><a href="/contact/">ABOUT US</a></li>
+	<li><a href="/about/">CAREERS</a></li>
+	<li><a href="/contact/">CONTACT US</a></li>
+</ul>
+
+<div id="story-id-1">
+	<h2>Salter Cane win Best British Newcomer award</h2>
+		<p>In a surprise turn of events, alt folk group, Salter Cane, won Best
+		â€ž British Newcomer and the Grammys this weekâ€¦</p>
+</div>
+
+
+<div id="story-id-2">
+	<h2>Comic Sans: The Movie wins best documentary at the BAFTAs </h2>
+		<p>The story of this beloved typeface one the best documentary category.
+			â€ž Director Richard Rutter was reported to be speechlessâ€¦</p>
+</div>
+
+<!--  comments here -->
+Au lieu dâ€™attribuer un ID sÃ©parÃ© Ã  chaque article, vous pouvez associer la classe news Ã 
+chacun dâ€™entre eux.
+
+<!--  comments here -->
+
+<div class="news">
+	<h2>Salter Cane win Best British Newcomer award</h2>
+		<p>In a surprise turn of events, alt folk group, Salter Cane, won Best
+		â€ž British Newcomer and the Grammys this weekâ€¦</p>
+</div>
+
+<div class="news">
+	<h2>"Comic Sans: The Movie" wins best documentary at the BAFTAs </h2>
+		<p>The story of this beloved typeface one the best documentary category.
+		â€ž Director Richard Rutter was reported to be speechlessâ€¦</p>
+</div>
+
+===
+<!--
+
+<body id="home">
+
+	<header>
+		<a id="" href=""></a>
+		<div id="slogan"></div>
+
+		<nav>
+			<?php include("inc/main-menu.php"); ?>
+		</nav>
+	</header>
+
+	<section class="container">
+
+		<article>
+			<h1></h1>
+
+			<img src="" alt="" height="" width="" />
+
+			<p></p>
+
+			<h2>Secondary Title</h2>
+			<p></p>
+		</article>
+
+		<article>
+			<%--Additional Article--%>
+		</article>
+
+	</section>
+
+	<aside>
+		<h3></h3>
+	</aside>
+
+	<footer class="container">
+		<h4>People I Enjoy</h4>
+		&copy;2007-<?php echo date("Y"); ?> Chris Coyier
+	</footer>
+
+	<script src='//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+	<script src='/js/main.js'></script>
+
+	<!- Google Analytics Code ->
+	<?php include_once("inc/analytics.php"); ?>
+
+</body>
+
+</html>-->
